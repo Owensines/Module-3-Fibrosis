@@ -10,12 +10,12 @@ import pandas as pd
 # Load the images you want to analyze
 
 filenames = [
-    r"../images/MASK_SK658 Llobe ch010039.jpg",
-    r"../images/MASK_SK658 Slobe ch010066.jpg",
-    r"../images/MASK_SK658 Slobe ch010147.jpg",
-    r"../images/MASK_SK658 Slobe ch010110.jpg",
-    r"../images/MASK_SK658 Slobe ch010130.jpg",
-    r"../images/MASK_SK658 Slobe ch010114.jpg",
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010025.jpg",
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010063.jpg",    
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010065.jpg",
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010115.jpg",
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010158.jpg",
+    r"C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010168.jpg",
 ]
 
 # Enter the depth of each image (in the same order that the images are listed above; you can find these in the .csv file provided to you which is tilted: "Filenames and Depths for Students")
@@ -140,4 +140,3 @@ print("The .csv file 'Percent_White_Pixels.csv' has been created.")
 
 # # Adjust layout to prevent overlap
 # plt.tight_layout()
-# plt.show()
