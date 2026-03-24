@@ -4,6 +4,10 @@ from termcolor import colored
 import cv2
 import numpy as np
 import pandas as pd
+import time   # <-- ADD THIS
+
+# Start timer
+start_time = time.time()
 
 # Load the images you want to analyze
 filenames = [
@@ -25,7 +29,7 @@ white_percents = []
 
 print(colored("Counts of pixels by color in each image", "yellow"))
 
-# Process each image one at a time (more memory efficient)
+# Process each image one at a time
 for i, (filename, depth) in enumerate(zip(filenames, depths)):
 
     img = cv2.imread(filename, 0)
@@ -51,7 +55,7 @@ for i, (filename, depth) in enumerate(zip(filenames, depths)):
     print(colored(f"Black pixels: {black}", "grey"))
     print()
 
-    # Compute percentage immediately (avoid second loop)
+    # Compute percentage
     white_percent = 100 * white / total_pixels
     white_percents.append(white_percent)
 
@@ -74,6 +78,12 @@ df = pd.DataFrame({
 df.to_csv('Percent_White_Pixels.csv', index=False)
 
 print("The .csv file 'Percent_White_Pixels.csv' has been created.")
+
+# End timer
+end_time = time.time()
+elapsed_time = end_time - start_time
+
+print(colored(f"\nTotal processing time: {elapsed_time:.4f} seconds", "green"))
 
 ##############
 # LECTURE 2: UNCOMMENT BELOW
