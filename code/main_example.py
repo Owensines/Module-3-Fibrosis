@@ -128,6 +128,9 @@ axs[1].grid(True)
 
 axs[1].scatter(depths_i[-1], white_percents_i[-1],
                color='red', s=100, label='Linear interpolated point')
+# Highlight quadratic interpolated point in green
+axs[1].scatter(interpolate_depth, interpolate_point_quadratic, color='green', s=100, label='Quadratic interpolated point')
+axs[1].legend()
 
 plt.tight_layout()
 plt.show()
