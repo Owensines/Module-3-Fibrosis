@@ -1,7 +1,7 @@
-Filenames,Depths,White percents
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010025.jpg,15,1.216888427734375
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010063.jpg,1000,2.882719039916992
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010065.jpg,3000,2.0015478134155273
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010115.jpg,5300,3.6032676696777344
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010158.jpg,7000,1.4254570007324219
-C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010168.jpg,9900,2.3686885833740234
+Filename,Depth (microns),White Pixels,Black Pixels,White %
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010025.jpg,15,51040,4143264,1.22
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010063.jpg,1000,120910,4073394,2.88
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010065.jpg,3000,83951,4110353,2.0
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010115.jpg,5300,151132,4043172,3.6
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_SK658 Slobe ch010158.jpg,7000,59788,4134516,1.43
+C:\Users\omsin\Desktop\Comp BME\Module-3-Fibrosis\images\MASK_Sk658 Llobe ch010168.jpg,9900,99350,4094954,2.37
